@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:pr1/screen_three.dart';
+import 'package:pr1/screen_two.dart';
 import 'welcome.dart';
 
 void main() {
@@ -11,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Welcome(),
+      home: ScreenThree (),
     );
   }
 }
